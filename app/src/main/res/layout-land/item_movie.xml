@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/lightYellow"
     android:layout_width="match_parent" android:layout_height="match_parent">
 
     <ImageView
@@ -23,7 +24,8 @@
         android:id="@+id/tvTitle"
         android:textSize="20sp"
         android:paddingLeft="5dp"
-        android:paddingRight="5dp"/>
+        android:paddingRight="5dp"
+        android:textColor="@color/colorPrimary"/>
 
     <TextView
         tools:text="A big screen remake of John Sturges' classic western The Magnificent Seven, itself a remake of Akira Kurosawa's Seven Samurai. Seven gun men in the old west gradually come together to help a poor village against savage thieves."
@@ -35,6 +37,6 @@
         android:id="@+id/tvOverview"
         android:paddingLeft="5dp"
         android:paddingRight="5dp"
-        android:paddingTop="10dp"/>
+        android:paddingTop="10dp" />
 
 </RelativeLayout>
